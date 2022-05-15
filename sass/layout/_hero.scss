@@ -1,0 +1,41 @@
+.hero {
+  background-color: var(--color-bg-dark);
+  text-align: center;
+  padding: 200px 0px;
+
+  height: 600px;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/img-h-2.jpg);
+  background-position: center;
+}
+
+.hero__title {
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+
+  color: var(--color-light);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero__button {
+  padding: 10px 32px;
+
+  text-align: center;
+
+  transition: color var(--transition-dur-tf), background-color var(--transition-dur-tf);
+  &:hover,
+  &:focus {
+    background-color: var(--color-bg-light);
+    color: var(--color-accent);
+  }
+}
